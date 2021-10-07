@@ -10,7 +10,7 @@
     "128": "icon_128.png"
   },
 
-  "browser_action": {
+  "action": {
     "default_icon": "icon_16.png",
     "default_title": "__MSG_buttonTip__"
   },
