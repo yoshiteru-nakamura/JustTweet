@@ -1,5 +1,7 @@
 function onClicked(tab) {
-  let prefix = localStorage.getItem('Prefix');
+// let prefix = localStorage.getItem('Prefix');
+  let prefix = chrome.storage.local.get("prefix", function (value) {
+
   if (prefix == null) {
       prefix = 'NowBrowsing: ';
   }
