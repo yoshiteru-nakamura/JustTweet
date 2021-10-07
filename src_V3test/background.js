@@ -80,6 +80,7 @@ switch (position) {
       +',status=no');
 }
 
-chrome.browserAction.onClicked.addListener(onClicked);
+// chrome.browserAction.onClicked.addListener(onClicked);
+chrome.browserAction.onClicked.addListener(handleBrowserActionClicked)
 
 // vim:set ts=8 sts=2 sw=2 tw=0 et:
