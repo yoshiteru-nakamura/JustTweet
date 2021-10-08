@@ -1,6 +1,5 @@
 function onClicked(tab) {
-// let prefix = localStorage.getItem('Prefix');
-  let prefix = chrome.storage.local.get("prefix", function (value) {
+  let prefix = chrome.storage.local.get("prefix");
 
   if (prefix == null) {
       prefix = 'NowBrowsing: ';
@@ -72,15 +71,13 @@ switch (position) {
     h = 360;
     x = (screen.width - w) / 2;
     y = (screen.height - h) / 2;
-    break;
-  }
+    break;}
 
   window.open(url, null,
       'left='+x+',top='+y+',width='+w+',height='+h
       +',status=no');
-}
+  };
 
-// chrome.browserAction.onClicked.addListener(onClicked);
-chrome.browserAction.onClicked.addListener(handleBrowserActionClicked)
-
-// vim:set ts=8 sts=2 sw=2 tw=0 et:
+// chrome.action.onClicked.addListener(function (tab) {
+//     console.log("Hello")
+//   });
