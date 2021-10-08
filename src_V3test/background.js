@@ -1,10 +1,10 @@
 function onClicked(tab) {
-  let prefix = chrome.storage.local.get("prefix");
+  let prefix = chrome.storage.local.get('prefix');
 
   if (prefix == null) {
       prefix = 'NowBrowsing: ';
   }
-  let position = localStorage.getItem('position');
+  let position = chrome.storage.local.get('position');
   if (position == null) {
       position = '1';
   }
