@@ -14,10 +14,11 @@
     "default_icon": "icon_16.png",
     "default_title": "__MSG_buttonTip__"
   },
-
   "background": {
     "service_worker": "background.js"
   },
+
+  "options_page": "option.html",
 
   "permissions": [
     "tabs",
