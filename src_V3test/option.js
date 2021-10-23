@@ -1,11 +1,9 @@
 ﻿window.onload = function(){
     let prefix = chrome.storage.local.get('prefix');
-    console.log("prefix",prefix);
     if (prefix == null) {
         prefix = 'NowBrowsing: ';
-        chrome.storage.local.set({'prefix': prefix},function(){});
     }
-    prefix = document.getElementById('id_prefix').value;
+    document.getElementById('id_prefix').value = prefix;
 
     let position = chrome.storage.local.get('position');
     if (position == null) {
