@@ -78,6 +78,6 @@ switch (position) {
       +',status=no');
   };
 
-// chrome.action.onClicked.addListener(function (tab) {
-//     console.log("Hello")
-//   });
+chrome.action.onClicked.addListener(function (tab) {
+    console.log("Hello")
+  });
