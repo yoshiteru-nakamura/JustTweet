@@ -14,7 +14,7 @@ async function onClicked(tab) {
     url_url = url_url.replace(/\?.*$/, '');
   }
 
-  const tweetUrl = 'https://twitter.com/intent/tweet?'
+  const tweetUrl = 'https://x.com/intent/tweet?'
     + 'text=' + encodeURIComponent(prefix) + encodeURIComponent(tab.title)
     + '&url=' + encodeURIComponent(url_url);
 
