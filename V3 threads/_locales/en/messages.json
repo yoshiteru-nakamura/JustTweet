@@ -1,0 +1,14 @@
+{
+  "extName": {
+    "message": "Just Threads",
+    "description": "Extension name."
+  },
+  "extDesc": {
+    "message": "Just Threads browsing site.You can change the Prefix and window size.",
+    "description": "Extension description."
+  },
+  "buttonTip": {
+    "message": "Just Threads",
+    "description": "Button tooltip."
+  }
+}

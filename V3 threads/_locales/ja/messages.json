@@ -1,0 +1,14 @@
+{
+  "extName": {
+    "message": "Just Threads",
+    "description": "Extension name."
+  },
+  "extDesc": {
+    "message": "今見ているサイトをThreadsに投稿するボタンです。オプション設定で固定文言(Prefix)とウインドウの表示位置を変更できます。",
+    "description": "Extension description."
+  },
+  "buttonTip": {
+    "message": "Just Threads",
+    "description": "Button tooltip."
+  }
+}
